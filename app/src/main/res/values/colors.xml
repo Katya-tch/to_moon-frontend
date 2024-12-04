@@ -6,6 +6,7 @@
     <color name="text">#A6A7BF</color>
     <color name="in">#33343D</color>
     <color name="blur">#333333</color>
+    <color name="buttonOpen">#979797</color>
     <color name="black">#161719</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

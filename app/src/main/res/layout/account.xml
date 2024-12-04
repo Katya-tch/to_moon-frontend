@@ -22,20 +22,20 @@
         android:gravity="left|center_vertical"
         android:text="Изменить рост и вес"
         android:textAllCaps="false"
-        android:textColor="@color/text"
+        android:textColor="@color/white"
         android:textSize="14sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="414dp" />
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="406dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="360dp"
-        android:layout_height="56p"
+        android:layout_height="56dp"
         android:backgroundTint="@color/button2"
         android:gravity="left|center_vertical"
         android:text="Изменить пароль"
         android:textAllCaps="false"
-        android:textColor="@color/text"
+        android:textColor="@color/white"
         android:textSize="14sp"
         tools:layout_editor_absoluteX="-1dp"
         tools:layout_editor_absoluteY="462dp" />
@@ -48,10 +48,10 @@
         android:gravity="left|center_vertical"
         android:text="Настройка уедомлений"
         android:textAllCaps="false"
-        android:textColor="@color/text"
+        android:textColor="@color/white"
         android:textSize="14sp"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="502dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="518dp" />
 
     <Button
         android:id="@+id/button"
@@ -64,8 +64,8 @@
         android:textAllCaps="false"
         android:textColor="@color/alert"
         android:textSize="14sp"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="550dp" />
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="574dp" />
 
     <Button
         android:id="@+id/button"
@@ -73,12 +73,12 @@
         android:layout_height="56dp"
         android:backgroundTint="@color/button2"
         android:gravity="left|center_vertical"
-        android:text="Изменить рост и вес"
+        android:text="Удалить аккаунт"
         android:textAllCaps="false"
         android:textColor="@color/text"
         android:textSize="14sp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="599dp" />
+        tools:layout_editor_absoluteY="630dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -151,5 +151,73 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.055555556" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:srcCompat="@drawable/vector"
+        tools:layout_editor_absoluteY="712dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="59dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+        app:layout_constraintTop_toTopOf="@+id/imageButton2"
+        app:srcCompat="@drawable/layer_2" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="49dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintTop_toTopOf="@+id/imageButton3"
+        app:srcCompat="@drawable/layer_3" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintTop_toTopOf="@+id/imageButton4"
+        app:srcCompat="@drawable/layer_4" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="62dp"
+        android:layout_height="59dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton5"
+        app:layout_constraintTop_toTopOf="@+id/imageButton5"
+        app:srcCompat="@drawable/layer_5"
+        tools:layout_editor_absoluteX="289dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="51dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/frame" />
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
